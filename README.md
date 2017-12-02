@@ -7,7 +7,7 @@ Swainson Holness
 Website: [swainsonholness.me](http://swainsonholness.me/)
 
 ### Contact
-1. email: swainson.holness@ gmail.com 
+1. email: swainson.holness@gmail.com 
 2. FCC profile: https://www.freecodecamp.com/exogenist
 3. Codepen: https://codepen.io/exogenist/full/POqgKr/
 
