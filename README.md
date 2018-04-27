@@ -3,7 +3,7 @@ This is my addition to the free-code-camp quote app challenge. Note that the jav
 
 ### Author
 Swainson Holness
-Website: [swainsonholness.me](http://swainsonholness.me/)
+Website: [swainsonholness.me](http://exogenist.tech/)
 
 ### Contact
 1. email: swainson.holness@gmail.com 
