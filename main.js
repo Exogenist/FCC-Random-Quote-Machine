@@ -64,7 +64,7 @@ window.onload = function() {
   var loadPer = 0;
 
   function pasteContent() {
-    var tempNum = getRandomIntInclusive(0, 224);
+    var tempNum = getRandomIntInclusive(0, 25);
     $(".content").text(quote[tempNum].body);
     $(".sig").text(quote[tempNum].author);
   }
@@ -137,9 +137,9 @@ window.onload = function() {
             author: data.quotes[i].author
           });
         }
-        if (pgload <= 8) {
+        if (pgload <= 2) {
           pgload += 1;
-          loadPer += 12.5;
+          loadPer += 50;
           dataPackage.loadContent("life", pgload);
           $("#loadBar").css("width", loadPer + "%");
         } else {
@@ -155,7 +155,7 @@ window.onload = function() {
   };
 
   //    initialize program
-  dataPackage.loadContent("science", pgload);
+  dataPackage.loadContent("life", pgload);
 
   document.getElementById("refresh").addEventListener("click", function(e) {
     e.preventDefault();
